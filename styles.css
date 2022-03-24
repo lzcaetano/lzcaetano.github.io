@@ -185,3 +185,25 @@ body {
 .contact-text {
     margin: 0px;
 }
+
+#arrow-container {
+    width: 70vw;
+    height: 25px;
+    display: flex;
+    justify-content: center;
+}
+
+#down-arrow {
+    position: relative;
+    bottom: 50px;
+    
+    animation-name: bubble;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes bubble {
+    0% {bottom: 50px;}
+    50% {bottom: 60px;}
+    100% {bottom: 50px;}
+}
