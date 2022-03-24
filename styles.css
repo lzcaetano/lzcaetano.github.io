@@ -172,7 +172,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 225px;
+    width: 375px;
     margin: 25px;
     font-weight: 800;
     text-shadow: 4px 4px rgba(116, 138, 236, 0.4);
@@ -180,4 +180,8 @@ body {
 
 .ctt-image {
     filter: drop-shadow(5px 5px 5px rgba(116, 138, 236, 0.4));
+}
+
+.contact-text {
+    margin: 0px;
 }
